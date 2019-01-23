@@ -1,0 +1,19 @@
+
+
+Products on page of activeadmin app follow the xpath pattern:
+
+1   //*[@id="container"]/div[4]/h2/a
+2   //*[@id="container"]/div[5]/h2/a
+3   //*[@id="container"]/div[6]/h2/a
+.
+.
+.
+32  //*[@id="container"]/div[35]/h2/a
+33  //*[@id="container"]/div[36]/h2/a
+
+Meaning that: 
+we can reference 'next' product just by incrementing the div tag identifier
+we can (math.Random(33) + 3) an integer to reference a product at random
+
+
+
